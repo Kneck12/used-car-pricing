@@ -6,6 +6,8 @@ library(tidyr)
 library(shinydashboard)
 library(shinyWidgets)
 library(RColorBrewer)
+library(rsconnect)
+
 
 #read cleaned datasets
 data_cleaned_2015 = read.csv('data/data_cleaned_2015.csv')
