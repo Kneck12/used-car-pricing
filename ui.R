@@ -15,7 +15,8 @@ dashboardPage(
                menuSubItem("Data view", tabName = "20212015data", icon = icon("table"))
                #menuSubItem("State view", tabName = "20212015state", icon = icon("map"))
       ),
-      menuItem("Conclusion", tabName = "conclusion", icon = icon("map"))
+      menuItem("Conclusion", tabName = "conclusion", icon = icon("map")),
+      menuItem("About", tabName = "about", icon = icon("address-card"))
     )
   ),
   dashboardBody(
@@ -333,9 +334,55 @@ img {
               
               
               #end
-      )
+      ),
       #Tab7 end      
+
       
+      #Tab8 start
+      tabItem(tabName = 'about',
+              #start
+              
+              fluidRow(
+                HTML('<H1><b>About the author</b></H1><DIV STYLE="background-color:#808080; height:2px; width:100%;"><br>
+                     ')
+              ),              
+              
+              fluidRow(
+                  HTML('
+                  
+                         <br><img src="author.jpg", alt="Author", width="300px", align="left"><br>
+                 ') 
+              ),
+              fluidRow(
+                box(style = "background-color:#FFFFFF;",
+                   width=8,
+                  HTML('<br>
+                  <H3>Moritz Becker</H3><br>
+                  <H4>Email: moritz.becker2@gmail.com | Github: github.com/Kneck12</H4><br><br>
+
+                  
+                  <div>Strategy Consultant, with a passion for creating impact from data-driven business insights. <br>
+                  Originally from Germany, I have been working in the US as an Engagement Manager in Strategy Consulting for over 3 years. My projects at work focus on analytics-driven value creation in Automotive and Manufacturing companies. I am currently deepening my analytical skillset at NYC Data Science Academy.
+                         </div><br>
+                  <br><DIV STYLE="background-color:#808080; height:2px; width:100%;"></div><br>
+                  ')
+                ),
+                box(style = "background-color:#FFFFFF;",
+                    width=8,
+                    HTML('<br>
+                  <H3>Sources</H3><br>
+                  <li>2021 Used car sales data from <a href="https://www.kaggle.com/austinreese/craigslist-carstrucks-data/version/10">This dataset webscraped from Craigslist</a></li>
+                  <li>2015 Used car sales data from <a href="https://www.kaggle.com/tunguz/used-car-auction-prices">This dataset of used ar auctions from Kaggle</a></li>
+                  ')
+                )
+              )
+              
+              
+              #end
+      )
+      #Tab8 end
+      
+            
     )
   )
 )
