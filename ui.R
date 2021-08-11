@@ -358,7 +358,7 @@ img {
                    width=8,
                   HTML('<br>
                   <H3>Moritz Becker</H3><br>
-                  <H4>Email: moritz.becker2@gmail.com | Github: github.com/Kneck12</H4><br><br>
+                  <H4>Email: moritz.becker2@gmail.com  <br><br>  LinkedIn: <a href="http://www.linkedin.com/in/moritz-becker2/">www.linkedin.com/in/moritz-becker2/</a>  <br><br>  Github: <a href="http://www.github.com/Kneck12">github.com/Kneck12</a></H4><br><br>
 
                   
                   <div>Strategy Consultant, with a passion for creating impact from data-driven business insights. <br>

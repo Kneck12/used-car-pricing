@@ -10,6 +10,7 @@ TBD
 
 Github contains:
 - data_cleaning.R: R code used to clean and merge datasets
+- data_review.R: additional queries used during the data cleaning process
 
 - Shiny files (global.R, server.R, UI.R, www Folder): FIles located directly in parent directory, used to define and launch the associated project Shiny app.
 

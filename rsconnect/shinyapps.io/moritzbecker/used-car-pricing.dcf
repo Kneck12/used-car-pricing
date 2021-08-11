@@ -5,7 +5,7 @@ account: moritzbecker
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 4468877
-bundleId: 4913518
+bundleId: 4913642
 url: https://moritzbecker.shinyapps.io/used-car-pricing/
-when: 1628714506.57237
-lastSyncTime: 1628714506.57241
+when: 1628717663.5554
+lastSyncTime: 1628717663.55541
