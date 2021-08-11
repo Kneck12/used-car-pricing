@@ -135,9 +135,10 @@ function(input,output){
     + ylab('Vehicle price in USD')
     + xlab('Vehicle Age')
     + theme(
-      plot.title = element_text(color="black", size=14, face="bold.italic"),
-      axis.title.x = element_text(color="black", size=12, face="bold"),
-      axis.title.y = element_text(color="black", size=12, face="bold")
+      plot.title = element_text(color="black", size=18, face="bold.italic"),
+      axis.title.x = element_text(color="black", size=18, face="bold"),
+      axis.title.y = element_text(color="black", size=18, face="bold"),
+      text = element_text(size = 18)
     )
   )
   
@@ -148,9 +149,10 @@ function(input,output){
     + ylab('Vehicle price change in percent 1-2 yrs. vs 12-20 yrs age')
     + xlab('Manufacturer')
     + theme(
-      plot.title = element_text(color="black", size=14, face="bold.italic"),
-      axis.title.x = element_text(color="black", size=12, face="bold"),
-      axis.title.y = element_text(color="black", size=12, face="bold")
+      plot.title = element_text(color="black", size=18, face="bold.italic"),
+      axis.title.x = element_text(color="black", size=18, face="bold"),
+      axis.title.y = element_text(color="black", size=18, face="bold"),
+      text = element_text(size = 18)
     )
   )
   
@@ -161,9 +163,10 @@ function(input,output){
     + ylab('Vehicle price in USD')
     + xlab('See selector')
     + theme(
-      plot.title = element_text(color="black", size=14, face="bold.italic"),
-      axis.title.x = element_text(color="black", size=12, face="bold"),
-      axis.title.y = element_text(color="black", size=12, face="bold")
+      plot.title = element_text(color="black", size=18, face="bold.italic"),
+      axis.title.x = element_text(color="black", size=18, face="bold"),
+      axis.title.y = element_text(color="black", size=18, face="bold"),
+      text = element_text(size = 18)
     )
   )
   
@@ -174,9 +177,10 @@ function(input,output){
     + ylab('Price increase 2015 to 2021')
     + xlab('Manufacturer')
     + theme(
-      plot.title = element_text(color="black", size=14, face="bold.italic"),
-      axis.title.x = element_text(color="black", size=12, face="bold"),
-      axis.title.y = element_text(color="black", size=12, face="bold")
+      plot.title = element_text(color="black", size=18, face="bold.italic"),
+      axis.title.x = element_text(color="black", size=18, face="bold"),
+      axis.title.y = element_text(color="black", size=18, face="bold"),
+      text = element_text(size = 18)
     )
   )
   
@@ -187,11 +191,12 @@ function(input,output){
     + ylab('Price increase 2015 to 2021')
     + xlab('Manufacturer')
     + theme(
-      plot.title = element_text(color="black", size=14, face="bold.italic"),
-      axis.title.x = element_text(color="black", size=12, face="bold"),
-      axis.title.y = element_text(color="black", size=12, face="bold")
+      plot.title = element_text(color="black", size=18, face="bold.italic"),
+      axis.title.x = element_text(color="black", size=18, face="bold"),
+      axis.title.y = element_text(color="black", size=18, face="bold"),
+      text = element_text(size = 18)
     )
-    + scale_fill_brewer(palette="Dark1")
+    + scale_fill_grey()
   )
   
   
